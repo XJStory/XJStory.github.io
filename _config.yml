@@ -3,7 +3,7 @@ encoding: utf-8
 # SEO相关信息
 title: XJ Home
 description: XJ personal website
-keywords: Blog, Story, XJ
+keywords: Blog, Story, DH
 author: XJ
 footerText: 'presented by @XJ. updated 2021'
 
@@ -17,7 +17,7 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-domainUrl: 'https://xiejia1995.github.io'
+domainUrl: 'https://xjstory.github.io'
 baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
@@ -26,7 +26,7 @@ tucaoUrl:
 # 菜单
 menu:
   - title: 首页
-    url: /blogindex.html
+    url: /index.html
   - title: 归类
     url: /pages/categories.html
   - title: 搜索
