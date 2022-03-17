@@ -32,4 +32,6 @@ layout: about
 * 古籍研读
   * [“吾与点”古籍自动整理系统](https://wyd.kvlab.org/) 北京大学数字人文研究中心
 * GIS
+  * [中国历史地理信息平台](http://timespace-china.fudan.edu.cn/) 复旦大学历史地理研究中心
+  * [学术地图发布平台AMAP](http://amap.zju.edu.cn/) 浙江大学社会科学研究院与哈佛大学地理分析中心共同建设
   * [Land Survey Maps of China: A Cartographic Database (1885–1945)](https://chmap.mpiwg-berlin.mpg.de/lgtu/) 德国柏林马普所
