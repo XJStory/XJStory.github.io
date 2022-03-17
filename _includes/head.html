@@ -1,58 +1,38 @@
-{%- assign buildAt = site.time | date: "%Y%m%d%H%M%S" -%}
 <head>
-  <title>{{ page.title }}-{{ site.title }}</title>
-  <meta charset="utf-8" />
-  <meta http-equiv="content-language" content="zh-CN" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="supported-color-schemes" content="light dark">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="applicable-device" content="pc,mobile">
-  <meta name="author" content="{{ site.author }}" />
-  {%- if page.categories %}
-  <meta name="description" content="{{ page.title }}"/>
-  <meta name="keywords" content="{{ site.author }}{% for category in page.categories %},{{ category }}{% endfor %}"/>
-  {% else %}
-  <meta name="description" content="{{ site.description }}"/>
-  <meta name="keywords" content="{{ site.keywords }}"/>
-  {% endif -%}
-  <link rel="icon" href="{{site.baseurl}}/static/img/favicon.ico" />
-  <link rel="apple-touch-icon" href="{{site.baseurl}}/static/img/logo.png" />
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/common.css?t={{buildAt}}">
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/theme-dark.css?t={{buildAt}}">
-  {%- if page.layout == "mypost" %}
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/post.css?t={{buildAt}}">
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/code-dark.css?t={{buildAt}}">
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/code-light.css?t={{buildAt}}">
-  {%- endif %}
-  {%- if page.layout == "page" %}
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/page.css?t={{buildAt}}">
-  {%- endif %}
-  <link rel="prefetch" href="{{site.baseurl}}/static/xml/search.xml?t={{ buildAt }}">
-  <link rel="prefetch" href="{{site.baseurl}}/static/js/search.js?t={{ buildAt }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ site.title }}</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/fontawesome-all.min.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon.ico" | relative_url }}">
+
+  <!-- Google Analytics -->
+  {% if site.google_analytics %}
   <script>
-    window.blog = {
-      baseurl:"{{site.baseurl}}",
-      buildAt:"{{buildAt}}",
-      darkTheme: false,
-      setDarkTheme: function (dark) {
-        this.darkTheme = Boolean(dark);
-        document.documentElement.className = this.darkTheme ? 'dark': '';
-        document.querySelector('meta[name=theme-color]').setAttribute('content', this.darkTheme ? '#2D2E32': '#FFFFFF');
-      }
-    }
-    if (sessionStorage.darkTheme !== undefined) {
-      blog.setDarkTheme(sessionStorage.darkTheme === 'true'); // 记忆值，单个窗口内有效
-    } else {
-      blog.setDarkTheme(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches); // 跟随系统
-    }
-    if (window.matchMedia) {
-      var media = window.matchMedia('(prefers-color-scheme: dark)');
-      media.addListener(function (ev) {
-        blog.setDarkTheme(ev.currentTarget.matches);
-        sessionStorage.removeItem('darkTheme');
-      });
-    }
+      (function(i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function() {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+
   </script>
+  {% endif %}
+
 </head>
