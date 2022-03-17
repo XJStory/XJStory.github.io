@@ -18,7 +18,9 @@ layout: about
 * 台湾地区
   * [中研院-數位人文學研究室](http://www3.ihp.sinica.edu.tw/dhrctw/). 台湾中央研究院
   * [台灣大學數位人文研究中心](http://www.digital.ntu.edu.tw/). 国立台湾大学
-* 日本 
+* 国际
+  * [Alliance of Digital Humanities Organizations(ADHO)](https://adho.org/)
+  * [ENP-China](https://www.enpchina.eu/)
   
   <br/>
 
