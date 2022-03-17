@@ -16,6 +16,8 @@ layout: about
 * [南京大学数字人文创研中心](https://ias.nju.edu.cn/szrwcyzx/list.htm). 南京大学
 * [中研院-數位人文學研究室](http://www3.ihp.sinica.edu.tw/dhrctw/). 台湾中央研究院
   
+  <br/>
+  
 # 数字人文公共主页
 * [数字人文研究](https://mp.weixin.qq.com/s?search_click_id=17951366263623906136-1645720438093-471738&__biz=MzIwNTk2ODYzMg==&mid=2247489019&idx=1&sn=c59db5d00bbf0e4536a94e068fe9d07c&chksm=9729906ca05e197a2e15eb26f113d0f9f4a8e4587cc9016640afeb00ae76330c21007e1b693f&scene=3&subscene=10000&clicktime=1645720438&enterid=1645720438&ascene=65&devicetype=pad-android-29&version=2800133d&nettype=WIFI&lang=en&exportkey=AZ81Tz2t%2F6AAu1VkYSYPmJE%3D&pass_ticket=aKVVaFp6iBdp05BFWeWa%2FYhiH6YLI00AHN07fILiw7No9HilpoxkyVNO99SKnDRF&wx_header=3) 微信公众平台. 中国人民大学
 * [DH数字人文](https://www.dhlib.cn/site/works/dhjournal) 网站&微信公众号. 清华大学
@@ -28,7 +30,7 @@ layout: about
 
 # 实用平台
 * 综合平台
-  * [Docusky] (https://docusky.org.tw/DocuSky/home/v5/) 國立臺灣大學數位人文研究中心
+  * [Docusky](https://docusky.org.tw/DocuSky/home/v5/) 國立臺灣大學數位人文研究中心
 * 古籍研读
   * [“吾与点”古籍自动整理系统](https://wyd.kvlab.org/) 北京大学数字人文研究中心
 * GIS
