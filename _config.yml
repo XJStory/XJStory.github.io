@@ -1,5 +1,5 @@
 # Site settings
-title: DH
+title: DH East Asia
 baseurl: "/dh"
 url: "https://Xjstory.github.io"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
@@ -13,7 +13,7 @@ author:
 
 # social
 social:
-  email: true
+  email: 
   behance:
   bitbucket:
   dribbble:
