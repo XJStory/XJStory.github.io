@@ -2,9 +2,9 @@
 layout: base 
 ---
 
-<div class="portfolio">
+<div class="dh-index">
   {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="portfolio-item">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="dh-index-item">
       <div>
         <h1 class="portfolio-title">{{ post.title }}</h1>
         <div class="portfolio-line"></div>
