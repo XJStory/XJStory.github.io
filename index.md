@@ -10,11 +10,15 @@ layout: about
 <br/>
 
 # 数字人文机构
-* [中国人民大学数字人文研究中心](http://dh.ruc.edu.cn/jggk/zxjj/index.htm) - Research Center for Digital Humanities of RUC. 中国人民大学
-* [北京大学数字人文研究中心](https://kvlab.org/) - Digital Humanities @PKU. 北京大学
-* [武汉大学数字人文研究中心](http://dh.whu.edu.cn) - Center for Digital Humantities Wuhan University. 武汉大学
-* [南京大学数字人文创研中心](https://ias.nju.edu.cn/szrwcyzx/list.htm). 南京大学
-* [中研院-數位人文學研究室](http://www3.ihp.sinica.edu.tw/dhrctw/). 台湾中央研究院
+* 中国大陆
+  * [中国人民大学数字人文研究中心](http://dh.ruc.edu.cn/jggk/zxjj/index.htm) - Research Center for Digital Humanities of RUC. 中国人民大学
+  * [北京大学数字人文研究中心](https://kvlab.org/) - Digital Humanities @PKU. 北京大学
+  * [武汉大学数字人文研究中心](http://dh.whu.edu.cn) - Center for Digital Humantities Wuhan University. 武汉大学
+  * [南京大学数字人文创研中心](https://ias.nju.edu.cn/szrwcyzx/list.htm). 南京大学
+* 台湾地区
+  * [中研院-數位人文學研究室](http://www3.ihp.sinica.edu.tw/dhrctw/). 台湾中央研究院
+  * [台灣大學數位人文研究中心](http://www.digital.ntu.edu.tw/). 国立台湾大学
+* 日本 
   
   <br/>
 
