@@ -2,14 +2,14 @@
 layout: about 
 ---
 
-# About Me
-There is no specific format here. You can fill out the form you want.  
-For example, you might want to write a brief introduction about your self, experience, interests, publications, and other information.  
-I wrote "about me", "career", and "interests" on this page as an example.  
+# 什么是数字人文？
+数字人文（Digital Humanities，简称DH）项目指的是在研究方法、成果呈现、传播媒介中运用数字方法和计算技术。
+
+典型的数字人文项目会同时运用数字与非数字手段来进行研究设计。非数字技术研究往往受制于文献材料的数量或复杂性，而运用数字技术使研究者得以探索非数字技术所难以回答的问题，同时也可使公众能够参与到研究中。
 
 <br/>
 
-# Career
+# 数字人文项目
 * Second Company (2012/01 ~ )
   * Web Application Firewall
     * Developed TCP network acceleration module.
