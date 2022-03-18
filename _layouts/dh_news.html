@@ -5,7 +5,7 @@ layout: base
 <div class="dh_news">
   {% for post in paginator.posts %}
     {% if post.categories contains 'dh_news' %}
-    {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+      {% capture y %}{{post.date | date:"%Y"}}
     <a href="{{ post.url | prepend: site.baseurl }}" class="dh_news-item">
       <div>
         <h1 class="dh_news-title">{{ post.title }}</h1>
@@ -27,6 +27,7 @@ layout: base
       </div>
     </a>
     </br>
+     {% endcapture %}
   {% endfor %}
 </div>
 
