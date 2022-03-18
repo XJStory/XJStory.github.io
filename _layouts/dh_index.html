@@ -4,29 +4,29 @@ layout: base
 
 <div class="dh_index">
   {% for post in site.posts %}
-      {% if post.categories contains 'dh_index' %}
-          {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="dh_index-item">
-      <div>
-        <h1 class="dh_index-title">{{ post.title }}</h1>
-        <div class="dh_index-line"></div>
+      {% if post.categories contains 'dh_index' %}          
+      <a href="{{ post.url | prepend: site.baseurl }}" class="dh_index-item">
+        <div>
+          <h1 class="dh_index-title">{{ post.title }}</h1>
+          <div class="dh_index-line"></div>
 
-        <div class="dh_index-content"> 
-          <span class="dh_index-icon">
-              <i class="fa fa-sticky-note"></i><span class="dh_index-icon-text">[{{ post.type }}] {{ post.info }}</span>
-          </span>
-          </br>
-          <span class="dh_index-icon">
-              <i class="fa fa-calendar-alt"></i><span class="dh_index-icon-text">{{ post.date | date: "%B %d, %Y" }}</span>
-          </span>
-          </br>
-          <span class="dh_index-icon">
-              <i class="fa fa-cog"></i><span class="dh_index-icon-text">{{ post.tech }}</span>
-          </span>
+          <div class="dh_index-content"> 
+            <span class="dh_index-icon">
+                <i class="fa fa-sticky-note"></i><span class="dh_index-icon-text">[{{ post.type }}] {{ post.info }}</span>
+            </span>
+            </br>
+            <span class="dh_index-icon">
+                <i class="fa fa-calendar-alt"></i><span class="dh_index-icon-text">{{ post.date | date: "%B %d, %Y" }}</span>
+            </span>
+            </br>
+            <span class="dh_index-icon">
+                <i class="fa fa-cog"></i><span class="dh_index-icon-text">{{ post.tech }}</span>
+            </span>
+          </div>
         </div>
-      </div>
-    </a>
-    </br>
+      </a>
+      </br>
+    {% endif %}
   {% endfor %}
 </div>
 </br>
