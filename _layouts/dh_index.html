@@ -3,8 +3,8 @@ layout: base
 ---
 
 <div class="dh_index">
-  {% for post in site.posts %}
-      {% if post.categories contains 'dh_index' %}          
+  {% for post in paginator.posts %}
+    {% if post.categories contains 'dh_index' %}          
       <a href="{{ post.url | prepend: site.baseurl }}" class="dh_index-item">
         <div>
           <h1 class="dh_index-title">{{ post.title }}</h1>
