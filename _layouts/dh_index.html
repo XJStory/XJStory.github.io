@@ -3,7 +3,9 @@ layout: base
 ---
 
 <div class="dh_index">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
+      {% if post.categories contains 'dh_index' %}
+          {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="dh_index-item">
       <div>
         <h1 class="dh_index-title">{{ post.title }}</h1>
