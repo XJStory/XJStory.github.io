@@ -1,12 +1,12 @@
-.dh-news {
+.dh_news {
   &-item {
     border-bottom: 1px solid $grey-2;
     color: $default-color;
     display: inline-block;
     padding: 2rem 0;
 
-    &:hover .dh-news-line,
-    &:focus .dh-news-line {
+    &:hover .dh_news-line,
+    &:focus .dh_news-line {
       width: 5rem;
     }
 
