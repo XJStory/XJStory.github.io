@@ -12,11 +12,11 @@ layout: base
 
           <div class="dh_index-content"> 
             <span class="dh_index-icon">
-                <i class="fa fa-sticky-note"></i><span class="dh_index-icon-text">[{{ post.type }}] {{ post.info }}</span>
+                <i class="fa fa-sticky-note"></i><span class="dh_index-icon-text"> {{ post.info }}</span>
             </span>
             </br>
             <span class="dh_index-icon">
-                <i class="fa fa-calendar-alt"></i><span class="dh_index-icon-text">{{ post.date | date: "更新时间%Y-%m-%d" }}</span>
+                <i class="fa fa-calendar-alt"></i><span class="dh_index-icon-text">{{ post.date | date: "更新时间 %Y-%m-%d" }}</span>
             </span>
             </br>
             <span class="dh_index-icon">
