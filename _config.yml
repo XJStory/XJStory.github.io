@@ -31,6 +31,8 @@ menu:
     url: /pages/categories.html
   - title: 搜索
     url: /pages/search.html
+  - title: 摄影
+    url: /pages/photo-gallery.html
   - title: 留言
     url: /pages/chat.html
   - title: 关于
