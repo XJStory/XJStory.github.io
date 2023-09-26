@@ -1,4 +1,34 @@
 ---
-layout: photo
+layout: page
 title: 摄影
 ---
+<div class="page page-index">
+    <ul>
+    <div class="title">
+        <li><a href="../photos/Venice" class="hover-underline">Venice 2023</a></li>
+        <br/>
+        <li><a href="../photos/Rijeka" class="hover-underline">Rijeka 2022</a></li>
+    </div>
+    </ul>
+</div>
+<div class="page page-index">
+    {% for photo in site.photos  -%}
+
+      <div class="list-post">
+
+        <ul>
+
+          <li>
+
+            <div class="title">
+              <a href="{{ site.baseurl | append: photo.url }}" class="hover-underline">{{ photo.title }}</a>
+            </div>
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    
+    {%- endfor %}
+  </div>
