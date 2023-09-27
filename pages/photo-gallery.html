@@ -13,24 +13,5 @@ title: 摄影
     </div>
     </ul>
 </div>
-<div class="page page-index">
-    {% for photo in site.photos  -%}
 
-      <div class="list-post">
-
-        <ul>
-
-          <li>
-
-            <div class="title">
-              <a href="{{ site.baseurl | append: photo.url }}" class="hover-underline">{{ photo.title }}</a>
-            </div>
-            
-            
-          </li>
-
-        </ul>
-      </div>
-    
-    {%- endfor %}
   </div>
