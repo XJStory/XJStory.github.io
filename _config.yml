@@ -33,8 +33,8 @@ menu:
     url: /pages/search.html
   - title: 摄影
     url: /pages/photo-gallery.html
-#  - title: 留言
-#    url: /pages/chat.html
+  - title: 小猪
+    url: /pages/manga.html
   - title: 关于
     url: /pages/about.html
 
